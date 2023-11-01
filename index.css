@@ -1,0 +1,39 @@
+body {font-family: 'Inter', sans-serif;margin:0;}
+.chatButton {background-color: purple; color:white; border:none; border-radius: 30px 0px; font-size: 30px; height:80px;margin:20px 0px 0px 0px; width:200px;}
+.chatInfoSectionContainer {align-items: center; display: flex; flex-direction: column;margin:0px 0px 50px 0px;padding:0px 50px;}
+.header {font-size:30px; font-style: italic;}
+.heroContainer {position:relative;}
+.heroImage {width:100%;}
+.heroText {background-color: rgb(100, 205, 253); color:white; font-size: 40px; padding:20px 70px; position:absolute;bottom:0px;}
+.ladiesPicture {height:550px;}
+p {font-size:20px;line-height: 35px;}
+.sectionContainer {align-items: center; display: flex;justify-content: space-around;margin:100px 30px;}
+.sleepOnGrass {margin:0px 80px 0px 0px;}
+.textSection {padding:0px 100px 0px 0px; width:800px;}
+.guysHug, .ladiesPicture, .sleepOnGrass {border-radius: 20px;}
+@media screen and (max-width:1210px) {
+    .guysHug {margin:0px 0px 50px 0px;}
+    .header {text-align: center;}
+    .ladiesPicture {margin:0px 0px 50px 0px;}
+    .sectionContainer {
+        border-bottom: 1px solid rgb(226, 223, 223);
+        flex-direction: column;
+        margin:0px;
+    }
+    .sleepOnGrass {margin:50px 0px 0px 0px;}
+    .textSection,.textSectionLeft {padding:0px;width:85%;}
+}
+@media screen and (max-width:860px) {
+    .heroText {font-size: 30px;}
+}
+@media screen and (max-width:670px) {
+    .header {font-size: 23px;}
+    .heroText {font-size: 20px;}
+    .ladiesPicture, .sleepOnGrass, .guysHug {
+        width:90%;
+    }
+    .ladiesPicture {height:100%;}
+    p {
+        font-size: 15px;
+    }
+}
